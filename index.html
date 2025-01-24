@@ -37,7 +37,11 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
     
-      gtag('config', 'AW-11506916231');
+      gtag('config', 'AW-11506916231', {
+        'linker': {
+          'domains': ['esporaodecalcanho.com.br', 'go.pepper.com.br']
+        }
+      });
     </script>
   
     <link rel="preload" href="https://static.leadpages.net/fonts/opensans/OpenSans-Regular.woff2" as="font" type="font/woff2" crossorigin="">
